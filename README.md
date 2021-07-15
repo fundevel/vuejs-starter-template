@@ -10,7 +10,7 @@
 # Notes
 - View 개발만 할 시에는 frontend 폴더 아래에서만 구동해도 좋다.
 
-# Deploy
+# Export compiled frontend to backend
 - frontend에서 ```npm run build``` npm run build를 수행하면 ```backend/public``` 폴더 아래로 정적 파일들이 생성된다.
 
 # Compile Frontend 
