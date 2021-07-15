@@ -36,7 +36,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm i -g recursive-install
       - run: npm-recursive-install
-      - run: npm run frontend-build
+      - run: cd frontend
+      - run: npm run build
       
       - name: Zip backend artifacts
         run: zip -r ${env:GITHUB_WORKSPACE}/build/webapp.zip ./backend/*
