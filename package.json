@@ -7,6 +7,7 @@
     "backend-debug": "cd backend & SET DEBUG=backend:* & npm start",
     "backend-start": "cd backend & npm start",
     "frontend-start": "cd frontend & npm run serve",
-    "frontend-build": "cd frontend & npm run build"
+    "frontend-build": "cd frontend & npm run build",
+    "postinstall": "cd frontend & npm install & cd ../backend & npm install"
   }
 }
