@@ -1,3 +1,5 @@
+[![Build Web Appication](https://github.com/magicsih/vuejs-starter-template/actions/workflows/build.yml/badge.svg)](https://github.com/magicsih/vuejs-starter-template/actions/workflows/build.yml)
+
 # Structure
 - Serving views
   - vue.js Frontend
